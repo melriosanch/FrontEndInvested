@@ -57,14 +57,64 @@ margin-top:20px;
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f7f7f7;
+    background-color: floralwhite;
     border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 23px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 23px 3px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 23px 3px rgba(0,0,0,0.75)
   }
   
   /* Estilos para los campos de texto */
   .form-control-plaintext {
     border: none;
-    background-color: #f7f7f7;
+    background-color: floralwhite;
+    border-radius: 30px;
+  
+
+  }
+  
+  /* Estilos para los campos de texto */
+  .form-control-plaintext {
+    border: none;
+    background-color: floralwhite;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Estilos para el campo "Monto" */
+  .input-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .input-group .form-control {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid floralwhite;
+    box-shadow: none;
+  }
+  
+  .input-group .input-group-text {
+    background-color: floralwhite;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  /* Estilos para el campo "Interés" */
+  .form-control-select {
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 7px;
+    padding: 20px;
+    border: none;
+    background-color: floralwhite;
+    margin-bottom: 20px;
+  }
+  #monto{
+    margin-bottom: 20px;
     font-size: 16px;
     font-weight: bold;
   }
@@ -94,7 +144,7 @@ margin-top:20px;
   /* Estilos para el campo "Interés" */
   .form-control-select {
     font-size: 16px;
-    font-weight: bold;
+    font-weight: normal;
     border-radius: 5px;
     padding: 10px;
     border: none;
@@ -115,6 +165,7 @@ margin-top:20px;
     background-color: #0099cc;
     color: #fff;
     border: none;
+    margin-left: 1000px;
   }
   
   .btn-info:hover {
@@ -132,5 +183,13 @@ margin-top:20px;
   #contentclientes{
     margin-top: 25px;
 
+  }
+
+  #monto{
+    margin-left: 25px;
+  }
+
+  .btn-dark{
+    margin-left: 100px;
   }
 
